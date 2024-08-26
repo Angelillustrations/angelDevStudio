@@ -4,7 +4,7 @@ import requests
 import os
 
 
-WEBHOOK_URL = os.getenv("WEBHOOK")
+WEBHOOK_URL = st.secrets["WEBHOOK"]
 
 def is_valid_email(email):
     # Basic regex to validate an email
