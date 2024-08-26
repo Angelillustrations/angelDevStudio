@@ -39,6 +39,7 @@ st.write(
     - Python.
     - MySql/Postgre.
     - Powershell.
+    - Pabbly Connect.
 
     Relevant Qualifications:
     - Robocorp Level 1 & 2.
