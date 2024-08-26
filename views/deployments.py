@@ -7,6 +7,19 @@ with col2:
     st.title("Current Deployments", anchor = False)
     st.write("not all companies have consented to be disclosed due to 3rd party involvements.\n\n")
 
+# Media Deployments
+st.write("\n")
+st.title("Council and Local Authority Deployments")
+st.write("Status: Live")
+st.write("""
+         Clients: Multiple.
+         Current Actions:
+         - Retrieve information from SQL database.
+         - Parse the data into a readable XLSX file.
+         - Calculate the data into possible outcomes (SAFE, NOT SAFE, NO RESULT).
+         - Push, via API, to local authority public matrix Sign.
+         """)
+
 # insolvency practicioner robotics.
 st.title("Insolvency Practicioner Onboarding.", anchor = False)
 st.write("Status: Live")
